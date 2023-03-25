@@ -4,4 +4,4 @@ The approach used here is from https://developer.atlassian.com/blog/2016/02/best
 
 Run the following commands in a terminal window on new machine
 
-    wget "https://raw.githubusercontent.com/CNUClasses/dotfiles/master/setup.sh";chmod 766 setup.sh;source ./setup.sh  
+    wget "https://raw.githubusercontent.com/kperkins411/dotfiles/master/setup.sh";chmod 766 setup.sh;source ./setup.sh  
