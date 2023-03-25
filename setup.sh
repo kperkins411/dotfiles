@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #where the configuration files come from
-DOTFILES_URL=https://github.com/CNUClasses/dotfiles.git
+DOTFILES_URL=https://github.com/kperkins411/dotfiles.git
 LOC=.cfg  #where config files go
 NAME='Keith Perkins'
 EMAIL='keith.perkins@cnu.edu'
