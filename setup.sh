@@ -2,13 +2,15 @@
 
 #where the configuration files come from
 DOTFILES_URL=https://github.com/kperkins411/dotfiles.git
-LOC=.cfg  #where config files go
-TMP=tmp999 #where to clone setup files
+LOC=.cfg1  #where config files go
 NAME='Keith Perkins'
 EMAIL='keith.perkins@cnu.edu'
 
+#create directory if not there
+mkdir -p ~/$LOC
+
 #clone repo into ~/.cfg, --depth=1 gets only last commits (faster)
-git clone --depth=1 $DOTFILES_URL ~/$TMP/
+git clone --depth=1 $DOTFILES_URL ~/$LOC/
 
 #if existing config files exist 
 for p in .vimrc .tmux.conf .ctags .gitconfig .bash_aliases
